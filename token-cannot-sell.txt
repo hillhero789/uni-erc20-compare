@@ -1,6 +1,6 @@
 #
 #  Panoramix v4 Oct 2019 
-#  Decompiled source of 0x9e24C0fF766dC89C290Ac9c792e0ebf3d4BB8Cab
+#  Decompiled source of 0x0808d1FE7A249A8b91A6c4037ED9F7Ce5e2f90dA
 # 
 #  Let's make the world open source 
 # 
@@ -12,8 +12,8 @@ def storage:
   totalSupply is uint256 at storage 3
   name is array of uint256 at storage 4
   symbol is array of uint256 at storage 5
-  decimals is uint8 at storage 6
   stor6 is addr at storage 6 offset 8
+  decimals is uint8 at storage 6
   stor7 is addr at storage 7
 
 def name() payable: 
